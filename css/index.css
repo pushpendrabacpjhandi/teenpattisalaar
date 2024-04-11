@@ -1,0 +1,289 @@
+a {
+    text-decoration: none;
+  }
+  html {
+    font-size: 25px;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.6rem;
+  }
+  @media screen and (min-width: 320px) {
+    html {
+      font-size: 21.33333333px;
+    }
+  }
+  @media screen and (min-width: 360px) {
+    html {
+      font-size: 24px;
+    }
+  }
+  @media screen and (min-width: 375px) {
+    html {
+      font-size: 25px;
+    }
+  }
+  @media screen and (min-width: 384px) {
+    html {
+      font-size: 25.6px;
+    }
+  }
+  @media screen and (min-width: 400px) {
+    html {
+      font-size: 26.66666667px;
+    }
+  }
+  @media screen and (min-width: 414px) {
+    html {
+      font-size: 27.6px;
+    }
+  }
+  @media screen and (min-width: 424px) {
+    html {
+      font-size: 28.26666667px;
+    }
+  }
+  @media screen and (min-width: 480px) {
+    html {
+      font-size: 32px;
+    }
+  }
+  @media screen and (min-width: 540px) {
+    html {
+      font-size: 36px;
+    }
+  }
+  @media screen and (min-width: 720px) {
+    html {
+      font-size: 48px;
+    }
+  }
+  @media screen and (min-width: 750px) {
+    html {
+      font-size: 50px;
+    }
+  }
+  
+  html,
+  body {
+    height: 100%;
+    min-height: 30.28rem;
+    /* max-height: 30.28rem; */
+  }
+  
+  body {
+    min-width: 320px;
+    width: 15rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica;
+    background: #fff;
+  }
+  
+  .warp {
+    position: relative;
+
+    height: 100%;         
+    margin: 0 auto;
+    background: url("../imgs/teen-patti-salaar-banner.webp") no-repeat;
+    background-size: 100% auto;
+  }
+  
+  .main {
+    padding: 0.5rem;
+  }
+  
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff086;
+    z-index: 1000;
+    border-top: 5px solid #c12f17;
+  }
+  
+  .small-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  .dowmload-button {
+    position: absolute;
+    top: 15.5rem;
+    left: 50%;
+    margin-left: -3.96rem;
+    width: 7.92rem;
+    height: 3rem;
+    animation: myBreath 1s linear infinite;
+  }
+  
+  @keyframes myBreath {
+    0% {
+      transform: scale(0.88);
+    }
+    50% {
+      transform: scale(100%);
+    }
+    100% {
+      transform: scale(0.88);
+    }
+  }
+  
+  .tip {
+    display: flex;
+  }
+  
+  .tip-content {
+    margin-left: 0.3rem;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .bit-game {
+    font-size: 0.8rem;
+  }
+  
+  .subtitle {
+    font-size: 0.36rem;
+    line-height: 0.6rem;
+  }
+  
+  .dowmload {
+    text-align: center;
+    margin-right: 5px;
+    font-size: 0.6rem;
+    color: #fff;
+    background: url("../imgs/download-teen-patti-salaar.webp") no-repeat;
+    background-size: 100% 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  
+  /* @media only screen and (device-width: 375px) and (-webkit-device-pixel-ratio: 3) {
+    .dowmload-button {
+      top: 14.2rem;
+    }
+  } */
+  
+  /* @media screen and (min-width: 393px) {
+    .dowmload-button {
+      top: 14.8rem;
+    }
+  } */
+  .logo,
+  .small-logo {
+    border-radius: 25px;
+  }
+
+  .hed {
+    border-style: dashed solid;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    display: inline-block;
+    background-color: #fff086;
+    border-width: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+  }
+  
+  .hed1 {
+    border-style: double solid;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    display: inline-block;
+    background-color: #FFEBEBEB;
+    border-width: 5px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.post-img {
+  border-radius: 5px;
+  border: 3px solid #c12f17; 
+  margin: 0 auto; 
+  display: block; 
+  width: 100%
+}
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  max-width: 1440px;
+
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #009a4b;
+  color: white;}
+
+user agent stylesheet
+th {
+
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    unicode-bidi: isolate;
+}
+
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  font-size: 20px;
+  border-spacing: 2px;
+  width: 100%;
+  -webkit-border-horizontal-spacing: ;
+  -webkit-border-vertical-spacing: ;
+}
+.kf {
+  position: fixed;
+  right: 0%;
+  top: 0;
+  bottom: 0;
+  margin: 5rem auto;
+  width: 3rem;
+  height: 3rem;
+  z-index: 999;
+}
+.kf img {
+  width: 70%;
+}
+.tgg {
+    position: fixed;
+    right: -85px;
+    top: 0;
+    bottom: 0;
+    margin: 7.8rem auto;
+    width: 6.5rem;
+    height: 3rem;
+    z-index: 9999;
+    
+  }
+  .tgg img {
+    width: 50%;
+  }
